@@ -23,7 +23,7 @@ const MovieCardsSlider = ( { type, call } ) => {
 
                 {
                     dataArr.map((dataObj)=>{
-                        return <MovieCard key={dataObj.id} genre={dataObj.genre_ids} movieName={dataObj.name} rating={dataObj.vote_average} releaseDate={dataObj.first_air_date} poster={dataObj.poster_path} />
+                        return <MovieCard id={dataObj.id} key={dataObj.id} genre={dataObj.genre_ids} movieName={dataObj.name} rating={dataObj.vote_average} releaseDate={dataObj.first_air_date} poster={dataObj.poster_path} />
                     })
                 }
 
@@ -36,3 +36,4 @@ const MovieCardsSlider = ( { type, call } ) => {
 }
 
 export default MovieCardsSlider
+

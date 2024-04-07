@@ -1,0 +1,27 @@
+.contentWrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+
+.detailsBanner .content {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* @media only screen and (min-width: 768px)
+.detailsBanner .content {
+    flex-direction: row;
+    gap: 50px;
+} */
+
+.detailsBanner .content .left {
+    flex-shrink: 0;
+}
+
+.detailsBanner .content .right {
+    color: rgb(255, 255, 255);
+}
